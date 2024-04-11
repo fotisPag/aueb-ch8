@@ -23,7 +23,8 @@ public class ArithmeticExceptionDemo {
            System.out.print("Το αποτέλεσμα της διαίρεσης είναι: " + result);
 
        }catch (ArithmeticException e) {
-           e.printStackTrace();;
+           e.printStackTrace();
+           
         }
     }
 }
